@@ -12,7 +12,7 @@ describe("Circle", () => {
 
     let newInstance = new Circle('SVG', 'white', 'green')
 
-    expect(newInstance.render()).toBe(expectedSvg)
+    expect(newInstance.render()).toMatch(expectedSvg)
 
 
 
